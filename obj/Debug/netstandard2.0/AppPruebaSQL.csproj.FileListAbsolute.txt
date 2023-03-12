@@ -1,0 +1,15 @@
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\bin\Debug\netstandard2.0\AppPruebaSQL.deps.json
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\bin\Debug\netstandard2.0\AppPruebaSQL.dll
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\bin\Debug\netstandard2.0\ref\AppPruebaSQL.dll
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\bin\Debug\netstandard2.0\AppPruebaSQL.pdb
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\obj\Debug\netstandard2.0\AppPruebaSQL.csproj.AssemblyReference.cache
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\obj\Debug\netstandard2.0\AppPruebaSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\obj\Debug\netstandard2.0\AppPruebaSQL.AssemblyInfoInputs.cache
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\obj\Debug\netstandard2.0\AppPruebaSQL.AssemblyInfo.cs
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\obj\Debug\netstandard2.0\AppPruebaSQL.csproj.CoreCompileInputs.cache
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\obj\Debug\netstandard2.0\AppPruebaSQL.dll
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\obj\Debug\netstandard2.0\ref\AppPruebaSQL.dll
+C:\Users\TecnoSoft\source\repos\VB 2019\AppPruebaSQL\AppPruebaSQL\obj\Debug\netstandard2.0\AppPruebaSQL.pdb

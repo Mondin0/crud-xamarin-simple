@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPruebaSQL.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Registro de alumnos" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Entry x:Name="txtIdAlumno" IsVisible="False" IsReadOnly="True"></Entry>
+        <Entry x:Name="txtNombre" Placeholder="nombre"></Entry>
+        <Entry x:Name="txtApellidoPaterno" Placeholder="Apellido paterno"></Entry>
+        <Entry x:Name="txtApellidoMaterno" Placeholder="Apellido materno"></Entry>
+        <Entry x:Name="txtEdad" Placeholder="Edad"></Entry>
+        <Entry x:Name="txtEmail" Placeholder="Email"></Entry>
+        <Button x:Name="btnRegistrar" Text="Registrar" Clicked="btnRegistrar_Clicked"></Button>
+        <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked" IsVisible="False"></Button>
+        <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked" IsVisible="False"></Button>
+        <ListView x:Name="lstAlumnos" ItemSelected="lstAlumnos_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding idAlumno}" Grid.Row="0" Grid.Column="0" TextColor="Black" />
+                            <Label Text="{Binding nombre}" Grid.Row="0" Grid.Column="1" TextColor="Black"/>
+                            <Label Text="{Binding apellidoPaterno}" Grid.Row="0" Grid.Column="2" TextColor="Black"/>
+                            <Label Text="{Binding apellidoMaterno}" Grid.Row="0" Grid.Column="3" TextColor="Black"/>
+                            <Label Text="{Binding edad}" Grid.Row="0" Grid.Column="4" TextColor="Red"/>
+                            <Label Text="{Binding email}" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" TextColor="Green"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
